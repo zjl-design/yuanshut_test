@@ -1,0 +1,2650 @@
+{
+  "info": {
+    "name": "报价后异议测试集合",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "4f75fcde-7de4-4434-ac0d-475d594392b7",
+    "description": "自动生成于 2026-05-12 14:00:52"
+  },
+  "item": [
+    {
+      "name": "测试用例_1",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl1\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"客户没有价格对比，单独觉得贵\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_2",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl2\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"和我情况差不多的朋友，保费好像没这么高。我的保险为什么这么贵？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"影响商业险定价的因素较多，且商业险各公司在监管允许范围之内均执行自主定价。商业险定价的因素包括:出险和违章，驾驶员违法记录、车辆使用情况、零整比等多重因素。目前行业各公司基本都采用单车定价，根据历史承保数据和车辆实际使用情况来定的\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_3",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl3\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"是什么原因导致我的保险价格这么高？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"商业险价格是各公司在监管框架下自主定价的，所以会有所不同。影响它的因素比较多，比如出险违章记录、驾驶员违法情况、车辆零整比和使用情况等。现在行业通行的做法是“单车定价”，也就是根据这辆车的历史数据和实际使用情况来最终确定价格。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_4",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl4\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"保费高的主要原因是什么？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"目前行业采用的是“单车定价”模式，会根据每辆车的承保历史和使用情况来定價。之所以价格有差异，是因为各家公司在监管允许范围内有自主定价权，同时要考虑出险、违章、驾驶员记录、车辆零整比等多重因素。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_5",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl5\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"保费这么贵，是我的车原因，还是我个人的原因？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"像出险记录、违章行为、驾驶员的违法 history、车辆零整比和使用情况等，都是影响商业险定价的多重因素。目前行业普遍采用单车定价，各家公司也会在监管范围内执行自主定价，所以报价会有不同。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_6",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl6\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"今年的保费好像有点高，这个价格是怎么算出来的？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"商业险价格是由多重因素决定的，目前行业通行的是单车定价模式，各公司在此基础上有自主定价权。这些因素主要包括您的出险和违章记录、驾驶员的违法情况、车辆本身的使用情况和零整比等等。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_7",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl7\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"能告诉我，我的保费为啥这么贵吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"各保险公司在监管指导下对商业险有自主定价权，因此报价会有差异。定价时会综合考虑多种因素，目前行业普遍采用“单车定价”，即根据车辆历史数据和实际使用情况（如出险、违章、零整比等）来核定最终价格。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_8",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl8\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"我的保费贵在哪了？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"给您简单解释下，车险价格像私人定制。保险公司会根据您车子的过往记录（比如出过险没、有没违章）、车辆型号（维修成本高低）和用车情况，在政策允许范围内给您一个专属价格。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_9",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl9\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"这价格正常吗？怎么这么高？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"现在车险价格都是一车一价了。系统会综合评估您的出险次数、违章记录，还有您车的品牌型号（这关系到配件价格），最后算出一个价格。不同公司评估模型不同，报价就有高低。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_10",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl10\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"比去年贵了好多，为啥？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"商业险定价看多重因素，包括出险、违章、车辆情况等，而且各公司可以自主定价。所以说，现在行业通行的“单车定价”，就是根据您车子的历史和数据来定价的。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_11",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl11\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"与外部报价对比（place_city下的其他保司）\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_12",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl12\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"同样方案，人保好像更便宜，你们优势在哪？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"官方渠道的服务包价值是很高的，也是官方独有的，您整体对比下来还是很合适的\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_13",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl13\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"和泰康比，你们的价格高了，是服务更好吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"您整体对比下来还是很合适的，毕竟官方渠道的服务包价值很高，而且是独有的。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_14",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl14\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"太保的报价比你们低，能解释下差价原因吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"官方独有的服务包，价值本身就很高，您整体来看这个方案确实很合适。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_15",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl15\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"相比人寿财险，你们的价格为什么这么高？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"从整体价值来看，这个方案非常合适，因为官方渠道的服务包不仅价值高，还是独有的。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_16",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl16\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"阳光保险的报价更优，你们的价格能调整吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"之所以说合适，是因为您能享受到官方独有且高价值的服务包，这是整体对比后的关键。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_17",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl17\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"大地保险的保费更低，你们的定价依据是？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"单看保费可能不是最低，但加上这个独有的服务包，综合性价比就是最高的了。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_18",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl18\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"天安财险的价格更好，你们能匹配吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"强烈建议您重点关注这个官方服务包，它是提升整个方案价值的核心，整体看非常值得。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_19",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl19\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"国寿财险的报价我收到了，你们怎么比他们贵这么多？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"这个方案的精髓就在这个独家的服务包里，它能带来的便利和保障，让整体选择变得超值。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_20",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl20\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"太平财险的方案和你们差不多，但更便宜，为什么？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"从长远看，这个官方服务包能省下不少心力和成本，整体一算，您现在选这个是最合适的。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_21",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl21\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"国任保险的保费比你们低很多\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"选官方图的就是个安心和独家服务，这个包的价值能覆盖整个用车周期，整体下来很值。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_22",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl22\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"与外部报价对比(询问地址≠place_city)\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_23",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl23\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"我看到同样这款保险，在杭州的价格比我的便宜，能解释一下为什么吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"我们已经尽力给您协调最优惠的方案了，您从官方渠道续保后续的服务肯定也是更加有保障的，您再考虑一下\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_24",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl24\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"我朋友在成都的报价，车型和方案都一样，为什么我的贵这么多？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"您再考虑一下，我们已经尽力协调了最优惠的方案，从官方渠道续保后续的服务也肯定更加有保障。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_25",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl25\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"请问不同地区的保费为什么会更贵？我的地区是有什么特殊风险吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"考虑到从官方渠道续保后续服务更加有保障，我们已经尽力为您协调了最优惠的方案，请您再考虑一下。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_26",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl26\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"与平安在成都的报价相比，贵司的价格有点高，请说明原因\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"我们已经为您协调了最优惠的方案，请您再考虑一下，毕竟从官方渠道续保，后续的服务肯定会更加有保障。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_27",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl27\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"为何相同方案在不同地区存在差异这么大？我的这么贵\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"官方渠道续保的后续服务更加有保障，我们也已经尽力协调了最优惠的方案，您不妨再考虑一下。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_28",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl28\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"我感觉我的保费有点贵，能解释其与全国其他地区的差异吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"这已经是我们能为您申请到的最优价格了，官方服务的品质也更有保证，您看可以吗？\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_29",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl29\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"保费有点贵，不知道其他城市的保费是什么标准？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"一方面价格帮您做到了最优，另一方面官方的服务保障是外面比不了的，您再考虑一下\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_30",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl30\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"我的地区保费更高的定价依据是什么？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"这个方案性价比很高了，何况还是官方服务，安全感和便利性都拉满了，值得您拥有。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_31",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl31\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"我的地区保费与什么相关？为什么比其他地区要高？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"您放心，价格和服务我们都替您把关了，这是目前最适合您的方案，建议考虑官方续保。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_32",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl32\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"我觉得我这里的报价比其他城市高，我需要一份关于我地区保费定价构成的简要说明。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"咱们图个放心，官方续保虽然可能不是绝对最低价，但服务和理赔绝对是最靠谱的。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_33",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl33\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"索要优惠\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_34",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl34\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"有没有优惠(返点)赠送？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"返点本身是不合规的，在正常保障不受影响的情况下不大可能有什么返点。此外，咱们买保险本身就是买一个安心保障嘛，所以最大的意义在于出事故了能获得原本该有的赔偿，享受到方便快捷的服务\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_35",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl35\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"有赠送什么优惠吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"咱们买保险就是为了买个安心保障，出事了能顺利理赔、享受服务才是最大的意义。返点这个事本身不合规，在保障不受影响的情况下基本是不大可能的。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_36",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl36\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"有什么优惠可以送？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"在确保您保障不受影响的前提下，其实很难有返点的，因为这本身就不合规。保险最大的意义还是图个安心，事故后能获得赔偿和便捷服务。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_37",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl37\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"能赠送些优惠不？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"返点本身是违规操作，所以正常投保是很难提供的。您想啊，我们买保险核心不就是为了出险时能享受到该有的赔偿和快捷服务，图个心安嘛。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_38",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl38\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"请问有优惠赠送吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"保险最大的价值在于保障，是为了让您出事故时能方便快捷地获得应有赔偿。至于返点，它本身不合规，在不影响保障的前提下几乎不可能有。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_39",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl39\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"有什么优惠活动吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"抛开返点这种不合规的操作不谈，我们回归本质，保险就是为了买一个安心，确保出险时能获得赔偿和享受到优质服务，这才是核心。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_40",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl40\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"会送些什么优惠呢？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"其实很难有返点，这首先就不合规，而且也不能动您的保障。买保险最大的意义不就是买个安心嘛，确保出事后理赔和服务都能跟上。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_41",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl41\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"现在投保有啥赠送的优惠？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"保障和服务是根本，返点是枝节，而且是不合规的枝节。所以咱们还是关注最重要的：出了事能顺利拿到赔款，过程省心省力。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_42",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl42\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"除了报价，还有额外优惠吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"我们之所以买保险，最大的意义就是图个心安，获得一份可靠的保障和及时的服务。返点本身不合规，在保障完整的情况下确实不大可能。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_43",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl43\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"价格方面还能再优惠点吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"返点是不符合规定的，为了您的保障权益，正规渠道都不会有。您想，我们投保最终不就是为了出事能赔、办事方便嘛，这才是安心所在。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_44",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl44\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"有没有什么附赠的优惠？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"国家有明确规定，返点是违规行为，咱们正规渠道肯定是没办法操作的。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_45",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl45\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"有没有折扣？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"我们提供的已经是合规前提下最优惠的价格了，返点这种违规的优惠确实不大可能。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_46",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl46\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"我看别人家都有优惠，你们这边呢？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"返点就像蛋糕上的糖霜，有则好看，但蛋糕本身（保障）才是能吃饱的关键。咱们先确保蛋糕足够大足够好。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_47",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl47\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"大家都是老客户了，没优惠吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"我宁愿您现在觉得我死板，也不愿您将来理赔时遇到麻烦。返点确实不大可能，但靠谱的保障和服务我一定能给您。\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "测试用例_48",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "*/*"
+          },
+          {
+            "key": "cybertron-robot-key",
+            "value": ""
+          },
+          {
+            "key": "cybertron-robot-token",
+            "value": ""
+          },
+          {
+            "key": "username",
+            "value": "1233_hunan_yushu@agentos.com"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"flow_uuid\": \"be57e2a2-2687-11f1-b2b7-8e31698fca76\",\n  \"payload\": {\n    \"car_type\": \"1\",\n    \"first_tag\": \"人工核保需协助\",\n    \"is_all_quote_fail\": \"2\",\n    \"is_buy_svc_pkg\": \"1\",\n    \"is_traded\": \"1\",\n    \"plate_city\": \"长沙\",\n    \"quotation_date\": \"2025-10-04\",\n    \"quote_success_insurer\": \"\",\n    \"rN_number\": \"RNobjzjl48\",\n    \"seat_name\": \"谢郑依\",\n    \"quote_result\": [\n      {\n        \"is_all_quote_fail\": \"2\",\n        \"over_time\": \"2025-11-01 18:00:00\"\n      }\n    ],\n    \"tags\": [],\n    \"conversation\": {\n      \"dialog_1\": {\n        \"content\": \"Hongda Ren 通过了你的朋友验证请求，以上是打招呼的消息。\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-02 09:30:39\"\n      },\n      \"dialog_2\": {\n        \"content\": \"Hi，特斯拉车主！我是您的在线续保顾问小爱...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-02 09:35:39\"\n      },\n      \"dialog_3\": {\n        \"content\": \"您好 在吗？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-03 13:38:40\"\n      },\n      \"dialog_4\": {\n        \"content\": \"您好久等啦~这是根据您的车辆提供的店内几家保司的保险方案及报价...\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-03 13:40:36\"\n      },\n      \"dialog_5\": {\n        \"content\": \"除了价格，还有什么别的福利？\",\n        \"role\": \"客户\",\n        \"talk_time\": \"2025-11-09 08:45:36\"\n      },\n      \"dialog_6\": {\n        \"content\": \"\",\n        \"role\": \"客服\",\n        \"talk_time\": \"2025-11-09 08:50:13\"\n      }\n    },\n    \"first_tag_time\": \"2025-11-01 20:01:02\",\n    \"lead_assign_time\": \"2025-11-01 09:01:03\",\n    \"lead_first_call_time\": \"2025-11-02 10:29:02\"\n  }\n}"
+        },
+        "url": {
+          "raw": "https://agentos.resultscloud.com/openapi/v1/tasks/flow/upload/?tenant_name=AiopsTest",
+          "protocol": "https",
+          "host": [
+            "agentos",
+            "resultscloud",
+            "com"
+          ],
+          "path": [
+            "openapi",
+            "v1",
+            "tasks",
+            "flow",
+            "upload"
+          ],
+          "query": [
+            {
+              "key": "tenant_name",
+              "value": "AiopsTest"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

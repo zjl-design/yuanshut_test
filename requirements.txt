@@ -1,0 +1,17 @@
+# 核心测试框架
+pytest>=7.0.0
+pytest-html>=3.2.0  # HTML报告
+allure-pytest>=2.13.2 # Allure报告
+# 接口请求
+requests>=2.31.0
+httpx>=0.24.1
+# 配置/数据处理
+pyyaml>=6.0
+python-dotenv>=1.0.0
+# 数据库
+pymysql>=1.1.0
+redis>=5.0.1
+# 日志/其他
+loguru>=0.7.2  # 日志库
+coverage>=7.2.7 # 覆盖率
+Faker>=19.1.0  # 测试数据生成
