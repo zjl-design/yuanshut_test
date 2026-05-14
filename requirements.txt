@@ -15,3 +15,5 @@ redis>=5.0.1
 loguru>=0.7.2  # 日志库
 coverage>=7.2.7 # 覆盖率
 Faker>=19.1.0  # 测试数据生成
+responses>=0.24
+requests>=2.31
